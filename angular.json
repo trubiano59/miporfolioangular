@@ -67,7 +67,8 @@
               "browserTarget": "miporfolioangular:build:production"
             },
             "development": {
-              "browserTarget": "miporfolioangular:build:development"
+              "browserTarget": "miporfolioangular:build:development", 
+              "port": 4200
             }
           },
           "defaultConfiguration": "development"
