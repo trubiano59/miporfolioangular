@@ -7,6 +7,13 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { LoginComponent } from './modals/login/login.component';
 import { RedesComponent } from './redes/redes.component';
 import { BannerComponent } from './banner/banner.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { EducationComponent } from './education/education.component';
+import { SkillsComponent } from './skills/skills.component';
+import { InterestsComponent } from './interests/interests.component';
+import { AwardsComponent } from './awards/awards.component';
+import { WorkComponent } from './work/work.component';
+import { ProyectosComponent } from './proyectos/proyectos.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +21,14 @@ import { BannerComponent } from './banner/banner.component';
     NavbarComponent,
     LoginComponent,
     RedesComponent,
-    BannerComponent
+    BannerComponent,
+    ExperienceComponent,
+    EducationComponent,
+    SkillsComponent,
+    InterestsComponent,
+    AwardsComponent,
+    WorkComponent,
+    ProyectosComponent
   ],
   imports: [
     BrowserModule,
