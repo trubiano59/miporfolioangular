@@ -1,0 +1,35 @@
+.banner{
+    background-image: url(/Assets/img/ALPES\ SUIZOS.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+    margin-top: -10rem;
+}
+.navegacion{
+    margin-top: -25rem;
+}
+
+.perfil{
+    margin-top: -15rem;
+    
+}
+
+.perfil.w-25{
+    width: 15rem !important;
+}
+
+.acerca{
+    margin-top: 7rem !important;
+}
+
+h1.mb-0{
+    margin-top: -13rem !important;
+}
+
+.tituloPerfil{
+    margin-top: -5rem;
+}
+.oficina{
+    min-width: 10rem;
+}
