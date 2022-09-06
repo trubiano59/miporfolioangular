@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
+
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LoginComponent } from './modals/login/login.component';
@@ -14,6 +14,11 @@ import { InterestsComponent } from './interests/interests.component';
 import { AwardsComponent } from './awards/awards.component';
 import { WorkComponent } from './work/work.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
+import { AppRoutingModule } from './app-routing.module';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { ErrorComponent } from './error/error.component';
+
+
 
 @NgModule({
   declarations: [
@@ -28,11 +33,15 @@ import { ProyectosComponent } from './proyectos/proyectos.component';
     InterestsComponent,
     AwardsComponent,
     WorkComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    DashboardComponent,
+    ErrorComponent,
+   
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
