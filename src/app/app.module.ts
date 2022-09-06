@@ -17,6 +17,10 @@ import { ProyectosComponent } from './proyectos/proyectos.component';
 import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ErrorComponent } from './error/error.component';
+import { IndexComponent } from './index/index.component';
+import { NavbardashboardComponent } from './navbardashboard/navbardashboard.component';
+import { BotonlogautComponent } from './botonlogaut/botonlogaut.component';
+
 
 
 
@@ -36,6 +40,10 @@ import { ErrorComponent } from './error/error.component';
     ProyectosComponent,
     DashboardComponent,
     ErrorComponent,
+    IndexComponent,
+    NavbardashboardComponent,
+    BotonlogautComponent,
+
    
   ],
   imports: [
