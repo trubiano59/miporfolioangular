@@ -22,6 +22,7 @@ import { NavbardashboardComponent } from './navbardashboard/navbardashboard.comp
 import { BotonlogautComponent } from './botonlogaut/botonlogaut.component';
 import { MainComponent } from './main/main.component';
 import { AcercademiComponent } from './acercademi/acercademi.component';
+import { CursosComponent } from './cursos/cursos.component';
 
 
 
@@ -48,6 +49,7 @@ import { AcercademiComponent } from './acercademi/acercademi.component';
     BotonlogautComponent,
     MainComponent,
     AcercademiComponent,
+    CursosComponent,
     
 
    
