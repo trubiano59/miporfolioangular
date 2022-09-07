@@ -1,0 +1,9 @@
+.banner{
+    background-image: url(/Assets/img/ALPES\ SUIZOS.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+    margin-top: -10rem;
+}
+

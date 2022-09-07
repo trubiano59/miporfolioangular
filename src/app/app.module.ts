@@ -20,6 +20,8 @@ import { ErrorComponent } from './error/error.component';
 import { IndexComponent } from './index/index.component';
 import { NavbardashboardComponent } from './navbardashboard/navbardashboard.component';
 import { BotonlogautComponent } from './botonlogaut/botonlogaut.component';
+import { MainComponent } from './main/main.component';
+
 
 
 
@@ -43,6 +45,8 @@ import { BotonlogautComponent } from './botonlogaut/botonlogaut.component';
     IndexComponent,
     NavbardashboardComponent,
     BotonlogautComponent,
+    MainComponent,
+    
 
    
   ],
