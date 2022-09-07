@@ -21,6 +21,7 @@ import { IndexComponent } from './index/index.component';
 import { NavbardashboardComponent } from './navbardashboard/navbardashboard.component';
 import { BotonlogautComponent } from './botonlogaut/botonlogaut.component';
 import { MainComponent } from './main/main.component';
+import { AcercademiComponent } from './acercademi/acercademi.component';
 
 
 
@@ -46,6 +47,7 @@ import { MainComponent } from './main/main.component';
     NavbardashboardComponent,
     BotonlogautComponent,
     MainComponent,
+    AcercademiComponent,
     
 
    
