@@ -1,11 +1,19 @@
 .banner{
-    background-image: url(/Assets/img/ALPES\ SUIZOS.png);
+    background-image: linear-gradient(
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.9)),
+        url(/Assets/img/ALPES\ SUIZOS.png);
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+    -msm-background-size: cover;
     min-height: 60vh;
     margin-top: -10rem;
 }
+
 .navegacion{
     margin-top: -25rem;
 }
@@ -38,38 +46,47 @@ h1.mb-0{
 .navbar.navbar-expand-lg.bg-primary{
     background-color: #138bc2 !important; } 
 
-i.fa-brands.fa-facebook.fa-xl,
+/*i.fa-brands.fa-facebook.fa-xl,
 i.fa-brands.fa-instagram.fa-xl,
 i.fa-brands.fa-linkedin.fa-xl,
 i.fa-brands.fa-github.fa-xl,
 i.fa-solid.fa-user.fa-xl{
-    color: #fff
+    color: #FFFFFF
+}*/
+
+.fa-brands.fa-envelope-o.fa-xl:hover{
+    --bs-text-opacity: 1;
+    color:yellowgreen !important
 }
 
-i.fa-brands.fa-facebook.fa-xl:hover{
+.fa-brands.fa-facebook.fa-xl:hover{
+    --bs-text-opacity: 1;
     color:blue
 }
 
-i.fa-brands.fa-instagram.fa-xl:hover{
-    color:darksalmon
+.fa-brands.fa-linkedin.fa-xl:hover{
+    --bs-text-opacity: 1;
+    color:rgba(8, 123, 91, 0.822)
 }
 
-i.fa-brands.fa-linkedin.fa-xl:hover{
-    color:rgb(122, 198, 233)
-}
-
-i.fa-brands.fa-github.fa-xl:hover{
+.fa-brands.fa-github.fa-xl:hover{
+    --bs-text-opacity: 1;
     color:gray
 }
 
-i.fa-solid.fa-user.fa-xl:hover{
-    color:#111
+.fa-solid.fa-user.fa-xl:hover{
+    --bs-text-opacity: 1;
+    color: #FFFFFF
 }
 
 .list-group{
-    --bs-list-group-bg: transparent;
+    
+    color:#fff !important
 }
 
+h3 {
+    background-color: #177fa2;
+}
 
 /*sectión 0*/
 section.about
