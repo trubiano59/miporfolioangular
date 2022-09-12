@@ -76,12 +76,11 @@ i.fa-solid.fa-user.fa-xl{
 
 .fa-solid.fa-user.fa-xl:hover{
     --bs-text-opacity: 1;
-    color: #FFFFFF
+    color: #FFF
 }
 
 .list-group{
-    
-    color:#fff !important
+    color:white !important
 }
 
 h3 {

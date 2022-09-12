@@ -29,6 +29,7 @@ import { IndexComponent } from './index/index.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -51,6 +52,7 @@ import { IndexComponent } from './index/index.component';
     AcercademiComponent,
     CursosComponent,
     IndexComponent,
+
   
     
 
