@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { IndexComponent } from './index/index.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ErrorComponent } from './error/error.component';
-import { IndexComponent } from './index/index.component';
+
 
 
 const routes: Routes=[
@@ -14,7 +15,7 @@ const routes: Routes=[
 
 
 @NgModule({
-  /*declarations: [],*/
+  declarations: [],
   imports: [RouterModule.forRoot(routes)],
   exports:[RouterModule]
 })
