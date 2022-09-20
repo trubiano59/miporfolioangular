@@ -63,11 +63,11 @@
              </div>
          <div class="row mt-2 g-2 g-lg-3">
              <div class="col">
-                 <div ><button type="button" class="btn btn-primary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#proyectosModal"><i
-             class="fa-brands fa-angular fa-xl">
-             </i></button></div>
-             </div>
-             <div class="col">
+                <div><button type="button" class="btn btn-primary btn-lg p-5" data-bs-toggle="modal"
+                data-bs-target="#interesesModal"><i class="fa-solid fa-folder fa-xl">
+                    </i></button></div>
+            </div>
+            <div class="col">
                  <div ><button type="button" class="btn btn-primary btn-lg p-5" data-bs-toggle="modal" data-bs-target="#skillsModal"><i
              class="fa-solid fa-dumbbell fa-xl">
              </i></button></div>
@@ -180,6 +180,42 @@
          </div>
      </div>
  </div>
+ <!-- Modal intereses-->
+ <div class="modal fade" id="interesesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Intereses</h5>
+      <!--<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>-->
+            </div>
+    <div class="modal-body">
+        <div class="mb-3 row">
+            <label for="formFileSm" class="form-label">Logo intereses</label>
+            <div class="col-sm-10">
+                <input class="form-control form-control-sm" id="formFileSm" type="file">
+            </div>
+        </div>
+    <div class="mb-3 row">
+        <label for="formFileSm" class="form-label">Título de los intereses </label>
+        <div class="col-sm-10">
+            <input class="form-control form-control-sm" id="formFileSm" type="text">
+        </div>
+    </div>
+    <div class="mb-3 row">
+        <label for="formFileSm" class="form-label">Descripción de los intereses</label>
+        <div class="col-sm-12">
+            <textarea class="form-control form-control-sm" id="formFileSm" type="text">
+                </textarea>
+        </div>
+    </div>
+</div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+    </div>
+  </div>
+</div>
+</div>
  <!-- Modal skills-->
  <div class="modal fade" id="skillsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
      <div class="modal-dialog">
@@ -356,9 +392,7 @@
  
  </body>
    
-   
-   
-   
+ 
    
 
 
