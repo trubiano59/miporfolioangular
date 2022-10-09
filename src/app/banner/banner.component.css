@@ -4,11 +4,11 @@
         rgba(0,0,0,0.9)),
         url(/Assets/img/ALPES\ SUIZOS.png);
     background-position: center;
-    background-size: cover;
+    -msm-background-size: cover;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -msm-background-size: cover;
+    background-size: cover;
     min-height: 60vh;
     margin-top: -10rem;
 }
