@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BotonlogautComponent } from './botonlogaut.component';
+import { BotonlogoutComponent } from './botonlogout.component';
 
-describe('BotonlogautComponent', () => {
-  let component: BotonlogautComponent;
-  let fixture: ComponentFixture<BotonlogautComponent>;
+describe('BotonlogoutComponent', () => {
+  let component: BotonlogoutComponent;
+  let fixture: ComponentFixture<BotonlogoutComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BotonlogautComponent ]
+      declarations: [ BotonlogoutComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(BotonlogautComponent);
+    fixture = TestBed.createComponent(BotonlogoutComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
