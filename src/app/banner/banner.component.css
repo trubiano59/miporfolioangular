@@ -12,3 +12,9 @@
     min-height: 60vh;
     margin-top: -10rem;
 }
+button.btn.btnLogin{
+    background-color: rgb(102, 102, 231);
+}
+.btn.btn-secondary{
+    background-color: red;
+}
